@@ -49,7 +49,7 @@ class DoctrineConsoleProvider implements ServiceProviderInterface
 
         $this->console->setHelperSet($helperSet);
 
-        $this->console->add(array(
+        $this->console->addCommands(array(
             // DBAL Commands
             new \Doctrine\DBAL\Tools\Console\Command\RunSqlCommand(),
             new \Doctrine\DBAL\Tools\Console\Command\ImportCommand(),
