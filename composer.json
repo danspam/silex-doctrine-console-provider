@@ -1,0 +1,19 @@
+{
+    "name": "danspam/silex-doctrine-console-provider",
+    "description": "A doctrine console provider for silex",
+    "license": "MIT",
+    "version": "0.1.1",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "silex/silex": "~1.0",
+        "symfony/console": "~2.3",
+        "doctrine/dbal": "2.5.*",
+        "doctrine/orm": "2.4.*"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
